@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^ufprcatei\.com\.br$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.ufprcatei\.com\.br$
+RewriteRule ^mail$ "https\:\/\/mail\.zoho\.com\/portal\/ufprcatei" [R=301,L]
+
